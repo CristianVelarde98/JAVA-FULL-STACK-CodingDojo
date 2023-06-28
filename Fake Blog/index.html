@@ -100,7 +100,7 @@
     </table>
 
     <h2>¿Te gusta la computacion? Contame!</h2>
-    <form action="">
+    <form action="/">
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre" required /><br />
 
@@ -113,31 +113,41 @@
         <option value="php">PHP</option></select
       ><br />
 
-      <label for="intereses">Intereses:</label><br />
+      <label for="">Intereses: </label>
+      <br />
+      <label for="interes1">Programación</label>
       <input
         type="checkbox"
         id="interes1"
         name="intereses"
         value="programacion"
       />
-      <label for="interes1">Programación</label><br />
+
+      <label for="interes2">Videojuegos</label>
       <input
         type="checkbox"
         id="interes2"
         name="intereses"
         value="videojuegos"
       />
-      <label for="interes2">Videojuegos</label><br />
-      <input type="checkbox" id="interes3" name="intereses" value="lectura" />
-      <label for="interes3">Series y Peliculas</label><br />
 
-      <label for="genero">Género:</label><br />
+      <label for="interes3">Series y Peliculas</label>
+      <input type="checkbox" id="interes3" name="intereses" value="lectura" />
+
+      <br />
+
+      <label for="">Genero: </label>
+      <br />
+
+      <label for="genero1">Masculino</label>
       <input type="radio" id="genero1" name="genero" value="masculino" />
-      <label for="genero1">Masculino</label><br />
+
+      <label for="genero2">Femenino</label>
       <input type="radio" id="genero2" name="genero" value="femenino" />
-      <label for="genero2">Femenino</label><br />
+
+      <label for="genero3">Otro</label>
       <input type="radio" id="genero3" name="genero" value="otro" />
-      <label for="genero3">Otro</label><br />
+      <br />
 
       <input type="submit" value="Enviar" />
     </form>
