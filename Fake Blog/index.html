@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Blog Hello World!</title>
+    <meta name="description" content="Un blog sobre mis hobbies y pasiones" />
+  </head>
+  <body>
+    <h1>Bienvenidos a mi Blog</h1>
+
+    <section>
+      <h2>Mi Pasión por la Programación</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu purus
+        vel mi pellentesque tristique. Nulla facilisi. Proin eget lacinia enim.
+        Maecenas non purus vel massa volutpat placerat nec nec mi. Ut consequat
+        mi sit amet metus vulputate, vel euismod felis cursus. Nullam in nunc
+        orci. Aliquam at aliquam tortor, eget dapibus nisl. Donec quis mi sed
+        erat suscipit ultrices ac eu nisl.
+      </p>
+      <p>
+        Quisque elementum justo quis mauris lacinia, in bibendum arcu volutpat.
+        Vivamus tempus diam sit amet faucibus scelerisque. Nulla id nisi eu ex
+        aliquet egestas vitae vitae neque. Nulla facilisi. Nulla ut tortor
+        vestibulum, malesuada ex non, ultricies lorem. Aliquam lobortis, turpis
+        ac luctus pellentesque, erat velit feugiat risus, in rutrum enim lectus
+        sit amet justo.
+      </p>
+    </section>
+
+    <section>
+      <h2>Mis Hobbies Favoritos:</h2>
+      <ul>
+        <li>Programación</li>
+        <li>Juegos de video</li>
+        <li>Series</li>
+        <li>Peliculas</li>
+      </ul>
+    </section>
+
+    <section>
+      <div>
+        <h2>Porque amo el cine:</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu purus
+          vel mi pellentesque tristique. Nulla facilisi. Proin eget lacinia
+          enim. Maecenas non purus vel massa volutpat placerat nec nec mi. Ut
+          consequat mi sit amet metus vulputate, vel euismod felis cursus.
+          Nullam in nunc orci. Aliquam at aliquam tortor, eget dapibus nisl.
+        </p>
+      </div>
+
+      <div>
+        <h2>Tambien me gusta el boxeo</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu purus
+          vel mi pellentesque tristique. Nulla facilisi. Proin eget lacinia
+          enim. Maecenas non purus vel massa volutpat placerat nec nec mi. Ut
+          consequat mi sit amet metus vulputate, vel euismod felis cursus.
+          Nullam in nunc orci. Aliquam at aliquam tortor, eget dapibus nisl.
+        </p>
+      </div>
+    </section>
+
+    <h2>Tabla de Puntuaciones</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre:</th>
+          <th>Lenguaje:</th>
+          <th>Programación:</th>
+          <th>Videojuegos:</th>
+          <th>Series y Peliculas:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Juana</td>
+          <td>Python</td>
+          <td>✔</td>
+          <td></td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Leon</td>
+          <td>JavaScript</td>
+          <td></td>
+          <td>✔</td>
+          <td>✔</td>
+        </tr>
+        <tr>
+          <td>Virginia</td>
+          <td>Java</td>
+          <td>✔</td>
+          <td>✔</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>¿Te gusta la computacion? Contame!</h2>
+    <form action="">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required /><br />
+
+      <label for="lenguaje">Lenguaje de programación favorito:</label>
+      <select id="lenguaje" name="lenguaje">
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="java">Java</option>
+        <option value="csharp">C#</option>
+        <option value="php">PHP</option></select
+      ><br />
+
+      <label for="intereses">Intereses:</label><br />
+      <input
+        type="checkbox"
+        id="interes1"
+        name="intereses"
+        value="programacion"
+      />
+      <label for="interes1">Programación</label><br />
+      <input
+        type="checkbox"
+        id="interes2"
+        name="intereses"
+        value="videojuegos"
+      />
+      <label for="interes2">Videojuegos</label><br />
+      <input type="checkbox" id="interes3" name="intereses" value="lectura" />
+      <label for="interes3">Series y Peliculas</label><br />
+
+      <label for="genero">Género:</label><br />
+      <input type="radio" id="genero1" name="genero" value="masculino" />
+      <label for="genero1">Masculino</label><br />
+      <input type="radio" id="genero2" name="genero" value="femenino" />
+      <label for="genero2">Femenino</label><br />
+      <input type="radio" id="genero3" name="genero" value="otro" />
+      <label for="genero3">Otro</label><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
