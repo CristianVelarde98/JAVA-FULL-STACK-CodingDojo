@@ -34,10 +34,19 @@
 
 #section1 {
   background-color: rgb(5, 5, 5);
+  height: 550px;
   border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 10px;
+  color: rgb(204, 204, 204);
 
   grid-column: 3/11;
   grid-row: 3/10;
+}
+
+#section1 h2 {
+  margin-bottom: -10px;
+  margin-top: 30px;
 }
 
 #section2 {
@@ -72,7 +81,7 @@
   color: rgb(204, 204, 204);
 
   grid-column: 1/11;
-  grid-row: 10/12;
+  grid-row: 11/12;
 }
 
 #footer1 a {
