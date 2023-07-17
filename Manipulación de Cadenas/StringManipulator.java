@@ -9,8 +9,8 @@ public class StringManipulator{
     }
 
     public static int getIndexOrNull(String cadena1, String cadena2){
-     char letra = cadena2.charAt(0);
-     return cadena1.indexOf(letra);
+    //  char letra = cadena2.charAt(0);
+     return cadena1.indexOf(cadena2, 0);
     }
 
     public String concatSubstring(String cadena1, int inicio, int fin, String cadena2){
